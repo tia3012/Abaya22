@@ -303,6 +303,31 @@ padding-bottom: 10px;
 }
 
 
+.table {
+    background-color: #F8EDE3;
+    border: 1px solid #8D493A; 
+}
+
+.table th {
+    background-color: #DFD3C3;
+    color: #8D493A;
+    border-bottom: 2px solid #8D493A; 
+    padding: 10px;
+    text-align: center;
+}
+
+.table td {
+    background-color: #F8EDE3; 
+    color: #8D493A; 
+    border-bottom: 1px solid #DFD3C3; 
+    padding: 8px;
+    text-align: center;
+}
+
+.table tbody tr:hover {
+    background-color: #DFD3C3;
+}
+
 .footer {
     background-color: #8D493A;
     color: #DFD3C3;
